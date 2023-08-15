@@ -9,7 +9,7 @@
 </ol>
 <h2>How to use</h2>
 <ul>
-<li><strong>SKILL FINDER</strong> can be used on Upwork tabs (Jobs or Talents) to export all skills. For talents, it only exports those with earnings over <code>$100,000</code> and who are top rated.</li>
+<li><strong>SKILL FINDER</strong> can be used on Upwork tabs (Jobs or Talents) and STOP where ever you want or wait till the END to export all skills. For talents, it only exports those with earnings over <code>$100,000</code> and who are top rated.</li>
 <li><strong>NICHE FINDER</strong> can be used to collect the number of freelancers and projects for the same search keyword with the same categories.</li>
 </ul>
 <h2>Here are some additional details about each option:</h2>
