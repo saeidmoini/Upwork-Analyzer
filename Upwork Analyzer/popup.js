@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function(){
             }else if(i != 1){
                 return;
             }else if(i === 1){
-                alert('There Is No Data For Nichs');
+                alert('There Is No Data For Niches');
                 return;
             }
             if(i === 1){
@@ -102,12 +102,12 @@ document.addEventListener('DOMContentLoaded', function(){
                     }
                     json2CSV += row + '\n';
                 }
-                download(json2CSV,'Nich-Finder-Results');
+                download(json2CSV,'Niche-Finder-Results');
             }
         }
             
         function onError(error) {
-            alert('There Is No Data For Nichs');
+            alert('There Is No Data For Niches');
         } 
     };   
     function startCollect() {

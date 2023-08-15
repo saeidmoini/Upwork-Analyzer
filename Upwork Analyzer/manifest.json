@@ -1,7 +1,7 @@
 {
     "name": "Upwork Analyzer",
     "version": "1.0.0",
-    "description": "Export Skills & Find Nich Of Market",
+    "description": "Export Skills & Find Niche Of Market",
     "manifest_version": 3,
     "author": "Saeid Moini",
     "background": {
