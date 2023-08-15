@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Export Skills</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="./assets/select2.css"
+      rel="stylesheet"
+    />
+    <style>
+        .ag-button {
+            width: 80%;
+            border-radius: 30px;
+        }
+        .bg-info:hover , .bg-success:hover, .bg-danger:hover {
+            background-color: darkorchid!important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container mt-3" style="width: 250px;">
+        <h4 class="text-center">Skills Finder</h4>
+        <div class="mt-4 text-center">
+            <button type="button" class="ag-button bg-success text-light" id="start">Start</button>
+        </div>  
+        <div class="mt-2 text-center">
+            <button type="button" class="ag-button bg-warning text-dark" id="stop">Stop</button>
+        </div>
+        <div class="mt-2 text-center">
+            <button type="button" class="ag-button bg-info text-dark" id="download">Download Page Data</button>
+        </div>
+        <div class="mt-2 mb-4 text-center">
+            <button type="button" class="ag-button bg-danger text-light" id="clearFinder">Clear</button>
+        </div>
+        <h4 class="text-center">Nich Finder</h4>
+        <div class="mt-4 text-center">
+            <input type="input" class="form-control" id="search" placeholder="search"></input>
+        </div>  
+        <div class="item">
+        <div class="mt-2 select-item">
+            <select
+            id="category"
+            name="category"
+            class="select-item-input form-control"
+            >
+                <option value="">All categories</option>
+                <option value="531770282584862721">Accounting & Consulting</option>
+                <option value="531770282580668416">Admin Support</option>
+                <option value="531770282580668417">Customer Service</option>
+                <option value="531770282580668420">Data Science & Analytics</option>
+                <option value="531770282580668421">Design & Creative</option>
+                <option value="531770282584862722">Engineering & Architecture</option>
+                <option value="531770282580668419">IT & Networking</option>
+                <option value="531770282584862723">Legal</option>
+                <option value="531770282580668422">Sales & Marketing</option>
+                <option value="531770282584862720">Translation</option>
+                <option value="531770282580668418">Web, Mobile & Software Dev</option>
+                <option value="531770282580668423">Writing</option>
+            </select>
+        </div> 
+        <div class="mt-2">
+            <select name="subCat" class="select-item-input form-control" id="loaderType" disabled>
+                <option value="">All Sub Categories</option>
+            </select> 
+        </div>
+        </div>
+        <div class="mt-2 text-center">
+            <button type="button" class="ag-button bg-success text-light" id="collect">Collect</button>
+        </div>  
+        <div class="mt-2 text-center">
+            <button type="button" class="ag-button bg-danger text-light" id="clear">Clear</button>
+        </div>
+        <div class="mt-2 mb-4 text-center">
+            <button type="button" class="ag-button bg-info text-dark" id="downloadC">Download</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/select2.js"></script>
+    <script src="./js/catSelect.js"></script>
+</body>
+</html>

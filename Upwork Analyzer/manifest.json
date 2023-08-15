@@ -1,0 +1,38 @@
+{
+    "name": "Upwork Analyzer",
+    "version": "1.0.0",
+    "description": "Export Skills & Find Nich Of Market",
+    "manifest_version": 3,
+    "author": "Saeid Moini",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://*/*"
+    ],
+    "content_security_policy": {
+        "style-src-elem" : "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+        "extension_pages" : "script-src 'self'; object-src 'self'; img-src 'self'"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage",
+        "scripting",
+        "nativeMessaging"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "assets/icons/ext-icon.png",
+            "24": "assets/icons/ext-icon.png",
+            "32": "assets/icons/ext-icon.png"
+        },
+        "default_title": "Upwork Analyzer",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "assets/icons/ext-icon.png",
+        "24": "assets/icons/ext-icon.png",
+        "32": "assets/icons/ext-icon.png"
+    }
+}
