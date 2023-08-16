@@ -102,9 +102,8 @@ function catSelect(state, loc) {
       category.options[7] = new Option("Product Management", "531770282589057030");
       category.options[8] = new Option("QA Testing", "531770282589057031");
       category.options[9] = new Option("Scripts & Utilities", "531770282589057028");
-      category.options[10] = new Option("Web & Mobile Designselected", );
-      category.options[11] = new Option("Web Development", "531770282589057029");
-      category.options[12] = new Option("Writing", "531770282584862733");
+      category.options[10] = new Option("Web & Mobile Design", "531770282589057029");
+      category.options[11] = new Option("Web Development", "531770282584862733");
     }
     if (state == '531770282580668423') {
       category.options[0] = new Option("All Sub Categories", "");

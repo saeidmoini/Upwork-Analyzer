@@ -71,7 +71,7 @@ var subCategoryArray = {
    "531770282589057030": "Product Management" ,
    "531770282589057031": "QA Testing" ,
    "531770282589057028": "Scripts & Utilities" ,
-   "531770282589057029": "Web & Mobile Designselected" ,
+   "531770282589057029": "Web & Mobile Design" ,
    "531770282584862733": "Web Development" ,
    "1301900640421842944" : "Content Writing" ,
    "531770282597445644": "Editing & Proofreading Services" ,
